@@ -46,7 +46,7 @@ usethis::use_test("app")
 # Documentation
 
 ## Vignette ----
-usethis::use_vignette("Orascoptic")
+usethis::use_vignette("OrascopticRev2")
 devtools::build_vignettes()
 
 ## Code Coverage----

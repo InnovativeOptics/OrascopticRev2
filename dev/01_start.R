@@ -19,7 +19,7 @@
 ## to change the name in the app_sys() function in app_config.R /!\
 ##
 golem::fill_desc(
-  pkg_name = "Orascoptic", # The Name of the package containing the App
+  pkg_name = "OrascopticRev2", # The Name of the package containing the App
   pkg_title = "INVORASCOPIC", # The Title of the package containing the App
   pkg_description = "An app that Orascoptic may use to quickly recommend laser safety inserts to their customers.", # The Description of the package containing the App
   author_first_name = "John", # Your First Name

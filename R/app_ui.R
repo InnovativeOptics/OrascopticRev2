@@ -31,6 +31,12 @@ app_ui <- function(request) {
     golem_add_external_resources(),
     # Your application UI logic
     page_fluid(
+
+      titlePanel("",
+                 tags$head(tags$link(rel = "icon", type = "png", href = "icons/logo-small.png"),
+                           tags$title("Orcascoptics Laser Safety"))),
+
+
       theme = orascoptic_theme,
       card(card_header(inverse = T,
                        fluidRow(
@@ -38,6 +44,8 @@ app_ui <- function(request) {
                                 align = 'left',
                                 a(href = "https://www.orascoptic.com/en-us?utm_medium=cpc&utm_source=google&utm_term=orascoptic%20dental%20loupes&utm_campaign=MM:+Orascoptic+NA+-+Loupes+-+Brand+-+Search+-+GGL&hsa_acc=8101871646&hsa_cam=19358180543&hsa_grp=145066458215&hsa_ad=642478728693&hsa_src=g&hsa_tgt=kwd-323440679163&hsa_kw=orascoptic%20dental%20loupes&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=EAIaIQobChMImbX-3dzZ_wIVtHxMCh1evQTpEAAYASAAEgJElfD_BwE",
                                   img(src = "icons/orascoptic_logo.png", width = "270px"))
+ #                               img(src = "icons/SurgiTel_logo.jpg", width = "270px"))
+
                          ),
                          column(6, align= 'right',
 
@@ -178,6 +186,7 @@ golem_add_external_resources <- function() {
 
   tags$head(
     favicon(ext = "png"),
+    #favicon(),
     bundle_resources(
       path = app_sys("app/www"),
       app_title = "Orascoptic"
