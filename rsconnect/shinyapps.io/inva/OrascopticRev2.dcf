@@ -1,0 +1,12 @@
+name: OrascopticRev2
+title: OrascopticRev2
+username: inva
+account: inva
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13825973
+bundleId: 9916564
+url: https://inva.shinyapps.io/OrascopticRev2/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
