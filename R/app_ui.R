@@ -54,7 +54,9 @@ app_ui <- function(request) {
 
                          )))
            ,fluidRow(column(12,align='center',
-                            h2(strong("Search eye protection by selecting a loupe style and laser device"))))
+                            h2(strong("Search eye protection by selecting a loupe style, and a laser device"))),
+                     column(12,align='center',
+                            h5(strong("*The user is responsible for confirming their own laser specifcations"))))
       ),
       fluidRow(
         column(
